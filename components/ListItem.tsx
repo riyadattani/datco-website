@@ -1,14 +1,14 @@
 import * as React from 'react'
 import Link from 'next/link'
 
-import { User } from '../interfaces'
+import { Product } from '../interfaces'
 
 type Props = {
-  data: User
+  data: Product
 }
 
 const ListItem: React.FunctionComponent<Props> = ({ data }) => (
-  <Link href="/users/[id]" as={`/users/${data.id}`}>
+  <Link href="/products/[id]" as={`/products/${data.id}`}>
     <a>
       {data.id}: {data.name}
     </a>

@@ -1,9 +1,8 @@
-import { User } from '../interfaces'
+import { Product } from '../interfaces'
 
-/** Dummy user data. */
-export const sampleUserData: User[] = [
-  { id: 101, name: 'Alice' },
-  { id: 102, name: 'Bob' },
-  { id: 103, name: 'Caroline' },
-  { id: 104, name: 'Dave' },
+export const sampleUserData: Product[] = [
+  { id: 101, name: 'Rice' },
+  { id: 102, name: 'Cooking Oil' },
+  { id: 103, name: 'Nutella' },
+  { id: 104, name: 'Flowers' },
 ]

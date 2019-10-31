@@ -1,5 +1,5 @@
 import * as React from "react"
-import NavBar from "./NavBar"
+import Header from "./Header"
 
 type Props = {
   title?: string
@@ -7,7 +7,7 @@ type Props = {
 
 const Layout: React.FunctionComponent<Props> = ({ children }) => (
   <div>
-    <NavBar title="Datco" />
+    <Header title="Datco" />
     {children}
     <footer>
       <hr />

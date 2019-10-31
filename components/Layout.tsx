@@ -1,5 +1,6 @@
 import * as React from "react"
 import Header from "./Header"
+import Footer from "./Footer"
 
 type Props = {
   title?: string
@@ -9,10 +10,7 @@ const Layout: React.FunctionComponent<Props> = ({ children }) => (
   <div>
     <Header title="Datco" />
     {children}
-    <footer>
-      <hr />
-      <span>All rights reserved</span>
-    </footer>
+    <Footer />
   </div>
 )
 

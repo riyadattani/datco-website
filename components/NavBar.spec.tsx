@@ -3,7 +3,7 @@ import { render } from "@testing-library/react"
 import "@testing-library/jest-dom/extend-expect"
 import NavBar from "./Navbar"
 
-describe("Datco Page", () => {
+describe("Navigation Bar", () => {
   it("should include the navigation links", () => {
     const { getByText } = render(<NavBar />)
     expect(getByText("Home")).toBeInTheDocument()

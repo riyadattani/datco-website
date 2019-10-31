@@ -5,7 +5,7 @@ import Link from "next/link"
 //   title?: string
 // }
 
-const NavBar = () => (
+const NavBar: React.FunctionComponent = () => (
   <>
     <nav>
       <Link href="/">

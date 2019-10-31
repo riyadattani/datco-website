@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
+    "test": "jest",
     "build": "next build",
     "start": "next start",
     "type-check": "tsc"
@@ -14,9 +15,24 @@
     "react-dom": "^16.10.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/preset-typescript": "^7.6.0",
+    "@loadable/babel-plugin": "^5.10.3",
+    "@testing-library/jest-dom": "^4.2.0",
+    "@testing-library/react": "^9.3.1",
+    "@types/jest": "^24.0.21",
     "@types/node": "^12.7.8",
     "@types/react": "^16.9.3",
     "@types/react-dom": "^16.9.1",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "ts-node": "^8.4.1",
     "typescript": "3.6.3"
   },
   "license": "ISC"

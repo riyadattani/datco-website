@@ -1,15 +1,13 @@
-import * as React from 'react'
-import Header from "./Header";
+import * as React from "react"
+import NavBar from "./NavBar"
 
 type Props = {
   title?: string
 }
 
-const Layout: React.FunctionComponent<Props> = ({
-  children,
-}) => (
+const Layout: React.FunctionComponent<Props> = ({ children }) => (
   <div>
-    <Header title="Datco Page"/>
+    <NavBar title="Datco" />
     {children}
     <footer>
       <hr />

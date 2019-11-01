@@ -1,5 +1,0 @@
-stages:
-    tags:
-      - ci (these tags need to be done on gitlab)
-    script:
-      - echo Hello World

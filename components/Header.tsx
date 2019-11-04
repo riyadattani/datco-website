@@ -1,5 +1,5 @@
 import * as React from "react"
-import NavBar from "./Navbar"
+import NavBar from "./NavBar"
 
 type HeaderProps = {
   title?: string

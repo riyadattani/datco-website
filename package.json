@@ -5,7 +5,8 @@
     "dev": "next",
     "test": "jest",
     "build": "next build",
-    "start": "next start -p 80",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
     "type-check": "tsc"
   },
   "dependencies": {
@@ -39,5 +40,8 @@
     "typescript": "3.6.3",
     "url-loader": "^3.0.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "engines": {
+    "node": "12.13.0"
+  }
 }

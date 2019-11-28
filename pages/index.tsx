@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/Layout"
 import { NextPage } from "next"
+import "../public/sass/main.scss"
 
 const IndexPage: NextPage = () => (
   <Layout>

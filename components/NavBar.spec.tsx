@@ -1,7 +1,7 @@
 import React from "react"
 import { render } from "@testing-library/react"
 import "@testing-library/jest-dom/extend-expect"
-import NavBar from "./Navbar"
+import NavBar from "./NavBar"
 
 describe("Navigation Bar", () => {
   it("should include the navigation links", () => {
